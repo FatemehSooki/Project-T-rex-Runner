@@ -1,4 +1,4 @@
-- 🦖 T-Rex Runner(https://fatemehsooki.github.io/Project-T-rex-Runner/)
+#🦖[T-rex Runner](https://fatemehsooki.github.io/Project-T-rex-Runner/)
 
 A browser-based endless runner inspired by Google's iconic Chrome Dino game, built from scratch using HTML, CSS, JavaScript, and Tailwind CSS.
 

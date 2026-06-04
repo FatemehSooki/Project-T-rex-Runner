@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>T-rex Runner</title>
+ <link rel="stylesheet" href="Css/output.css">
+</head>
+
+<body class="bg-white">
+ <h1 class="text-[60px] text-center font-bold">T-rex Runner</h1>
+ <div class="row">
+  <div class="frame w-[700px] h-[450px] border border-black overflow-hidden rounded-sm mt-10 relative">
+   <div class="main">
+    <div class="line h-[2px] absolute bottom-20 left-0 w-[100000px] bg-black"></div>
+    <div><img class="trex w-[100px] absolute left-2 bottom-20" src="img/Trex.webp" alt=""></div>
+   </div>
+  </div>
+ </div>
+
+
+ <footer>
+  <img src="img/Me.png" alt="">
+  <div class="social">
+   <a href="https://www.instagram.com/fatemeh_sooki?igsh=MXM4ZHBrNW55bmF0cQ==">instagram</a>
+   <a href="https://www.linkedin.com/in/fatemeh-sooki-197060396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a>
+   <a href="https://github.com/FatemehSooki">github</a>
+  </div>
+ </footer>
+
+</body>
+<script>
+ const blocks = []
+ const line = document.querySelector('.line')
+ const trex = document.querySelector('.trex')
+ const frame = document.querySelector('.frame')
+ for (let i = 0; i < 100; i++) {
+  let _rand = Math.floor(Math.random() * (600)) + 200
+  let temp = _rand + (+(i + '000'));
+  blocks.push(temp)
+
+  // making cactus///
+  let cactus = document.createElement('div')
+  cactus.classList.add('cactus')
+  cactus.style.left = temp + 'px'
+  let _h = Math.floor(Math.random() * 100) + 40
+
+  cactus.style.height = _h + 'px'
+  line.appendChild(cactus)
+  // making cactus///
+
+ }
+
+
+ window.addEventListener('keyup', (e) => {
+  let temp = e.keyCode || e.which
+  console.log(temp);
+  if (temp == 32) {
+   trex.classList.add('jump')
+   setTimeout(() => {
+    trex.classList.remove('jump')
+   }, 300);
+  }
+
+ })
+
+
+ setInterval(() => {
+  let trexLeft = (trex.computedStyleMap().get('left').value) + 100
+  blocks.forEach((val) => {
+   if (trexLeft > val && trexLeft <= val + 30) {
+    if (trex.computedStyleMap().get('bottom').value == 80) {
+     alert("game over!")
+    }
+   }
+  })
+ }, 16);
+
+</script>
+
+</html>

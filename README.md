@@ -1,5 +1,4 @@
-# Project-T-rex-Runner
-# 🦖 T-Rex Runner Clone
+# 🦖 T-Rex Runner(https://fatemehsooki.github.io/Project-T-rex-Runner/)
 
 A browser-based endless runner inspired by Google's iconic Chrome Dino game, built from scratch using HTML, CSS, JavaScript, and Tailwind CSS.
 
@@ -27,16 +26,6 @@ The game features dynamically generated obstacles, keyboard-controlled jumping m
 * CSS3
 * Tailwind CSS
 * JavaScript (ES6)
-
-## 📸 Screenshots
-
-### Main Gameplay
-
-![Gameplay](images/gameplay.png)
-
-### Game Over State
-
-![Game Over](images/game-over.png)
 
 ## 🧠 What I Practiced
 

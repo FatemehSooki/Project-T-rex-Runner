@@ -1,4 +1,4 @@
-# 🦖 T-Rex Runner('https://fatemehsooki.github.io/Project-T-rex-Runner/')
+# 🦖 T-Rex Runner(https://fatemehsooki.github.io/Project-T-rex-Runner)
 
 A browser-based endless runner inspired by Google's iconic Chrome Dino game, built from scratch using HTML, CSS, JavaScript, and Tailwind CSS.
 
@@ -47,8 +47,14 @@ Through this project I strengthened my understanding of:
 3. Press **Space** to jump
 4. Avoid obstacles and survive as long as possible
 
-## 👩‍💻 Author
+## 👩🏻‍💻 Developer
 
-Fatemeh Sooki
+- Fatemeh Sooki
+- Role - Frontend
 
-GitHub: https://github.com/FatemehSooki
+- Created - 2026-06-05
+
+- Project Master: [Parsa Ghorbanian](https://www.instagram.com/parsa_ghorbanian_web?igsh=MXQydDAxMW05ZjgyYg==)
+
+
+- How to reach me : with my [instagram](https://www.instagram.com/fatemeh_sooki?igsh=MXM4ZHBrNW55bmF0cQ==) and [linkedin](https://www.linkedin.com/in/fatemeh-sooki-197060396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
